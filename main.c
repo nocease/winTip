@@ -16,7 +16,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     RegisterClass(&wc);
 
     // 创建窗口
-    HWND hwnd = CreateWindow(TEXT("MyWindowClass"), TEXT("我帮你看网络学院_V2.0"), WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX, 
+    HWND hwnd = CreateWindow(TEXT("MyWindowClass"), TEXT("我帮你看网络学院_V2.1"), WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX, 
         CW_USEDEFAULT, CW_USEDEFAULT, 500, 200, NULL, NULL, hInstance, NULL);
 
     // 创建文本框
